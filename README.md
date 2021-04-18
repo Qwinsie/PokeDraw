@@ -1,5 +1,7 @@
-# Prototype 1
+PokéDraw
 
+
+For my research I used these sources:
 - https://learn.ml5js.org/#/reference/image-classifier
 - https://wanago.io/2019/06/24/creating-a-simple-drawing-app-using-canvas-saving-and-loading-images/
 - https://quickdraw.withgoogle.com/
