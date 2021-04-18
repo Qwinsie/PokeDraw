@@ -157,7 +157,6 @@ window.addEventListener("load", () => {
 
   // Classify Canvas
   function classifyCanvas() {
-    console.log(classifier)
     classifier.classify(canvas, gotResult);
   }
 
