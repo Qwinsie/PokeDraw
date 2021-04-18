@@ -207,7 +207,7 @@ window.addEventListener("load", () => {
     console.log(results);
     // Show the first label and confidence
     label = results[0].label
-    addToGalaryButton.innerHTML = `📁 Add ${label} to the Galary`
+    addToGalaryButton.innerHTML = `📁 Add ${label} to the Gallery`
     let result = Math.round(results[0].confidence * 1000) / 10
     message.innerHTML = `I think this is a drawing of a ${label} with an ${result}%`
     synth.speak(new SpeechSynthesisUtterance(`I think this is a drawing of a ${label} with an ${result}%`));
